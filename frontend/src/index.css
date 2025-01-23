@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+.btn-pink {
+  background-color: #f7c0d5;
+  border-color: #f7c0d5;
+  color: #f1a7bb; 
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-pink:hover {
+  background-color: #f1a7bb;
+  border-color: #f1a7bb;
+  color: #f1a7bb;
+}
+button {
+  background-color: #f1a7bb; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f1a7bb; 
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+  border-color: #f7c0d5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #f7c0d5;
+}
+
+
+.main-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #f7a9c1; 
+  margin-bottom: 20px;
+}
+
+header button {
+  margin-top: 15px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+}
+
+.product-card {
+  width: 300px; 
+  height: 450px; 
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.product-card p {
+  color: #777;
+}
+
+.product-card button {
+  margin-top: 10px;
+  background-color: #f7c0d5;
+}
+
+.product-card button:hover {
+  background-color: #f1a7bb;
+}
+
+
+.login-page {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-page h2 {
+  text-align: center;
+  color: #f7a9c1;
+}
+
+.login-page input, .login-page button {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.admin-dashboard {
+  padding: 20px;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  color: #f7a9c1;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.products-list {
+  margin-top: 30px;
+}
+
+.products-list div {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
