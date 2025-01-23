@@ -9,10 +9,13 @@ const EditProduct = () => {
   const [product, setProduct] = useState({ name: '', price: '', description: '' });
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/products/${id}`)
+    axios.get(`http://localhost:5000/products/${id}`, {
+      headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } 
+    })
       .then(response => setProduct(response.data))
       .catch(err => console.error(err));
   }, [id]);
+  
 
   const handleUpdate = () => {
     axios.put(`http://localhost:5000/products/${id}`, product, {
